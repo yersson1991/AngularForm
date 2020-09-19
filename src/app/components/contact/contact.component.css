@@ -1,0 +1,63 @@
+.form-container{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width:500px ;
+    padding: 16px;
+    margin: 10px auto;
+    background-color: rgba(10, 236, 252, 0.315);
+}
+.form-container h1{
+    background-color: #43d1af;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin: -16px -16px 16px -16px;
+}
+
+.form-container input[type ="text"],
+.form-container input[type ="email"],
+.form-container textarea{
+
+    transition:  all 0,30s ease-in-out ;
+    outline: none;
+    box-sizing: border-box;
+    width:  100%;
+    background-color: white;
+    margin-bottom:  4%;
+    border: 1px solid rgb(223, 12, 12);
+    padding: 3%;
+    color:#555;
+    font: 95% Arial, Helvetica, sans-serif;
+
+}
+
+.form-container .btn-send{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background-color: #43d1af;
+    border-bottom: 2px solid cornflowerblue;
+    border-top-style: none ;
+    border-right-style: none;
+    border-left-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+.form-container .btn-send:hover:not([disabled]){
+    background-color: rgba(78, 131, 68, 0.315);
+    
+}
+
+.alert-danger{
+    color: rgb(53, 7, 7);
+    background-color: rgb(206, 127, 143);
+    border-color: crimson;
+    margin-top: 5px;
+
+}
+
+.container-error-message{
+    padding: 3px;
+}
